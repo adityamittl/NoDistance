@@ -27,10 +27,7 @@ We used Figma to design the web app, and brought our design into reality through
 
 
 ## 🧠 Challenges we ran into
-- The plugin we intended to use to convert Figma to HTML/CSS didn't work at all. So, we had to do it ourselves. 
-- We were all new to Google Cloud technologies, but we quickly learnt how to use it.
-- We were not able to do the task manager for teachers at first, but our team-mates worked extra hard (as late as 3AM in their time) and finally overcame it. 
-
+- 
 ## 🏅 Accomplishments that we're proud of
 - Completing a project that makes a difference in the lives of pepople. 
 - Learning a lot: from workshops, sponsor technologies, competitors, MLHERS, and from each other. 
