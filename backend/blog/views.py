@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from .models import blog
 from django.views.decorators.csrf import csrf_exempt
@@ -34,6 +34,7 @@ def new_blog(request):
         temp.description = dcx
         temp.topic = tpc
         temp.save()
+        return redirect('/blog')
     auth0user = user.social_auth.get(provider='auth0')
     data = {
         'user_id': auth0user.uid,

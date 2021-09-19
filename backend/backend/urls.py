@@ -20,5 +20,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('auth0login.urls')),
     path('', include('blog.urls')),
+    path('chat/', include('chat.urls')),
     #path('temp', home),
 ]

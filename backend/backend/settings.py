@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-wfv$2gxnn8h^ei!u)g3=(v)mk@8%z_n-360k1wy1kd9h+dwixx
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -27,7 +27,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'social_django',
     'auth0login',
-    'blog'
+    'blog',
+    'chat'
 ]
 
 MIDDLEWARE = [
@@ -66,8 +67,16 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django_cockroachdb',
+        'NAME': 'second-elk-1010.defaultdb',
+        'USER': 'aditya',
+        'PASSWORD': 'Hacker@123456',
+        'HOST': 'free-tier6.gcp-asia-southeast1.cockroachlabs.cloud',
+        'PORT': '26257',
+        'OPTIONS': {
+            'sslmode': 'verify-full',
+            'sslrootcert': BASE_DIR/'root.crt',
+        },
     }
 }
 
