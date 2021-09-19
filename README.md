@@ -1,8 +1,8 @@
 # NoDistance
 
 ##Live Demo
-The site is deployed through Vercel, which you can view over   
-Check out our presentation 
+
+- 
 
 ## Demo video
 
