@@ -17,7 +17,7 @@ CLick  to view
 ## ⚙️ How it works
 
 ## 🔨 How we built it
-We used Figma to design the web app, and brought our design into reality through HTML , CSS and for backend we use Django. We got an exposure to wonderful sponsor technologies and used them in our project -- namely, Google Cloud, Auth0 , CockroachDB , (more details given below). 
+We used Figma to design the web app, and brought our design into reality through HTML , CSS and for backend we use Django. We got an exposure to wonderful sponsor technologies and used them in our project -- namely Auth0 , CockroachDB  (more details given below). 
 
 ## ⭕ Use of CockroachDB
 - We used CockroachDB as database because it is an easy to use, open-source, and indestructible SQL database. It works well with Containers like Kubernetes and compatible with Postgresql.
