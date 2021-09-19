@@ -1,10 +1,6 @@
 # NoDistance
  - peaceHouse
 
-## Live Demo
-
-- 
-
 ## Demo video
 
 CLick  to view 
