@@ -69,8 +69,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django_cockroachdb',
         'NAME': 'second-elk-1010.defaultdb',
-        'USER': 'aditya',
-        'PASSWORD': 'Hacker@123456',
+        'USER': 'xxxx',
+        'PASSWORD': 'xxxx',
         'HOST': 'free-tier6.gcp-asia-southeast1.cockroachlabs.cloud',
         'PORT': '26257',
         'OPTIONS': {
@@ -129,14 +129,14 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # SOCIAL AUTH AUTH0 BACKEND CONFIG
 SOCIAL_AUTH_TRAILING_SLASH = False
-SOCIAL_AUTH_AUTH0_KEY = '5O4NW8x69pmrK78oBjnZ5sEm92ifVcRi'
-SOCIAL_AUTH_AUTH0_SECRET = 'WQ4weqW5zVtVbre6wO8fOkwsGpeqLVORIGkrzkhmK5ccXWPyhnrVZfEcuqd9npDp'
+SOCIAL_AUTH_AUTH0_KEY = 'xxxx'
+SOCIAL_AUTH_AUTH0_SECRET = 'xxxx'
 SOCIAL_AUTH_AUTH0_SCOPE = [
     'openid',
     'profile',
     'email'
 ]
-SOCIAL_AUTH_AUTH0_DOMAIN = 'dev-a82l-9t9.us.auth0.com'
+SOCIAL_AUTH_AUTH0_DOMAIN = 'xxxx'
 AUDIENCE = None
 if os.environ.get('AUTH0_AUDIENCE'):
     AUDIENCE = os.environ.get('AUTH0_AUDIENCE')
